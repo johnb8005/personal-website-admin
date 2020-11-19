@@ -1513,10 +1513,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nexys/material-components@^3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@nexys/material-components/-/material-components-3.4.2.tgz#22f51137119783da03651b334b4ca9898496300c"
-  integrity sha512-aQRBkjRtOAtbzywdcGdvYaKHOQ4FhFtFxiRMjhyC1M09xGTodYxG/qADwt1sp0aWkuxWO2sRz9e1ceEjyTw5yg==
+"@nexys/material-components@^3.4.5":
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@nexys/material-components/-/material-components-3.4.5.tgz#6a13f0528ba91901107d3e4ed78326019e0820b0"
+  integrity sha512-Evl+73jcYk3z6wF7WwGJIY2RYROaPSBDNW6pc/Cg0AhHEO8ZkVm98IYs+k0k96mQdpqZ0OnEYh5AktJ1/+PGpg==
   dependencies:
     "@date-io/date-fns" "1.x"
     "@material-ui/core" "^4.9.7"

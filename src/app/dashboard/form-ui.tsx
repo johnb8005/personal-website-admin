@@ -2,9 +2,6 @@ import React from 'react';
 import { UI } from '@nexys/material-components';
 import { Data } from './type';
 import Link from './link';
-
-import LinkAdd from './link/add';
-
 import * as U from './utils';
 
 const FormUI = (props: { data: Data }) => {
@@ -75,7 +72,7 @@ const FormUI = (props: { data: Data }) => {
         ))}
       </ul>
 
-      <LinkAdd
+      <UI.Form.QuickAdd
         label={'add a link'}
         onSubmit={href => {
           if (!href.match(/^http[s]{0,1}:\/\//)) {
@@ -105,8 +102,10 @@ const FormUI = (props: { data: Data }) => {
         <img src={data.picture.src} alt={data.name} />
       )}
 
+      <br />
+
       {data.name !== '' &&
-        // data.title !== '' &&
+        // data.title !== '' && // title is optional
         data.email !== '' &&
         data.phone !== '' &&
         data.picture.src !== '' && <Link data={data} />}
