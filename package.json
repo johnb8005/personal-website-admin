@@ -1,5 +1,5 @@
 {
-  "name": "nexys-boilerplate",
+  "name": "personal-identity-admin",
   "version": "0.0.1",
   "dependencies": {
     "@nexys/material-components": "^3.4.2",
