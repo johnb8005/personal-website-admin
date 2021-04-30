@@ -26,7 +26,7 @@ export default () => {
       />
 
       <ul>
-        <li onClick={() => setData(initialData)}>Initial Data</li>
+        {/*<li onClick={() => setData(initialData)}>Initial Data</li>*/}
         {DataSamples.map((d, i) => (
           <li key={i} onClick={() => setData(d)}>
             {d.name}
