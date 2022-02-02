@@ -1,6 +1,6 @@
 {
   "name": "@johnb8005/personal-website-admin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "files": "build/*",
   "dependencies": {
     "@nexys/material-components": "^3.4.5",
