@@ -1,7 +1,7 @@
 {
   "name": "@johnb8005/personal-website-admin",
   "version": "0.0.1",
-  "files": "build/*",
+   "files": ["build/*"],
   "dependencies": {
     "@nexys/material-components": "^3.4.5",
     "@types/qrcode.react": "^1.0.1",
