@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Link } from '@material-ui/core';
 import { Utils } from '@nexys/material-components';
 import { appTitle } from 'config/index';
+import * as Config from '../../config'
 
 const useStyles = Utils.makeStyles(theme => ({
   footer: {
@@ -9,9 +10,7 @@ const useStyles = Utils.makeStyles(theme => ({
   }
 }));
 
-const gitsha: string = process.env.REACT_APP_GIT_SHA || 'GIT SHA';
-const gitshaLink: string =
-  'https://github.com/johnb8005/personal-website-admin/commit/' + gitsha;
+
 
 const Footer = () => {
   const classes = useStyles();
@@ -26,7 +25,7 @@ const Footer = () => {
         {` ${new Date().getFullYear()}`}
         <br />
         <small>
-          <a href={gitshaLink}>{gitsha}</a>
+          <a href={Config.gitshaLink}>{Config.gitversion}</a>
         </small>
       </Typography>
     </footer>
