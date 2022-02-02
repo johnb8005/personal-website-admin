@@ -1,6 +1,7 @@
 {
-  "name": "personal-identity-admin",
-  "version": "0.0.1",
+  "name": "@johnb8005/personal-identity-admin",
+  "version": "0.0.0",
+  "files": "build/*",
   "dependencies": {
     "@nexys/material-components": "^3.4.5",
     "@types/qrcode.react": "^1.0.1",
