@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/personal-website-admin/static/js/main.fee0e84a.chunk.js",
-    "main.js.map": "/personal-website-admin/static/js/main.fee0e84a.chunk.js.map",
+    "main.js": "/personal-website-admin/static/js/main.cd5c5740.chunk.js",
+    "main.js.map": "/personal-website-admin/static/js/main.cd5c5740.chunk.js.map",
     "runtime-main.js": "/personal-website-admin/static/js/runtime-main.d2616c6a.js",
     "runtime-main.js.map": "/personal-website-admin/static/js/runtime-main.d2616c6a.js.map",
-    "static/js/2.959797e6.chunk.js": "/personal-website-admin/static/js/2.959797e6.chunk.js",
-    "static/js/2.959797e6.chunk.js.map": "/personal-website-admin/static/js/2.959797e6.chunk.js.map",
+    "static/js/2.78926044.chunk.js": "/personal-website-admin/static/js/2.78926044.chunk.js",
+    "static/js/2.78926044.chunk.js.map": "/personal-website-admin/static/js/2.78926044.chunk.js.map",
     "index.html": "/personal-website-admin/index.html",
-    "precache-manifest.da33eb9767b5559b82af8f7d95a7a016.js": "/personal-website-admin/precache-manifest.da33eb9767b5559b82af8f7d95a7a016.js",
+    "precache-manifest.a8745d71b462a1777012ac3e35065888.js": "/personal-website-admin/precache-manifest.a8745d71b462a1777012ac3e35065888.js",
     "service-worker.js": "/personal-website-admin/service-worker.js",
-    "static/js/2.959797e6.chunk.js.LICENSE.txt": "/personal-website-admin/static/js/2.959797e6.chunk.js.LICENSE.txt",
+    "static/js/2.78926044.chunk.js.LICENSE.txt": "/personal-website-admin/static/js/2.78926044.chunk.js.LICENSE.txt",
     "static/media/bg-placeholder.jpg": "/personal-website-admin/static/media/bg-placeholder.0505b658.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2616c6a.js",
-    "static/js/2.959797e6.chunk.js",
-    "static/js/main.fee0e84a.chunk.js"
+    "static/js/2.78926044.chunk.js",
+    "static/js/main.cd5c5740.chunk.js"
   ]
 }
