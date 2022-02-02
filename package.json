@@ -1,5 +1,5 @@
 {
-  "name": "@johnb8005/personal-identity-admin",
+  "name": "@johnb8005/personal-website-admin",
   "version": "0.0.0",
   "files": "build/*",
   "dependencies": {
