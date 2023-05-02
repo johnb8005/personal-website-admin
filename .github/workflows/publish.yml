@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: nexys-system/gh-actions-spa-test@v1.1.0
         with:
+          nodeversion: 14
           build-command: PUBLIC_URL=/personal-website-admin REACT_APP_GIT_SHA=$GITHUB_SHA REACT_APP_VERSION=${GITHUB_REF##*/} yarn build
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
