@@ -2,26 +2,16 @@
 name: Deploy
 
 on:
-  push:
-    tags:
-      - v*
+  [push]
+#  push:
+#    tags:
+#      - v*
+
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: nexys-system/gh-actions-spa-test@v1.1.0
         with:
-          node-version: 14
-          registry-url: https://npm.pkg.github.com/
-          scope: "@johnb8005"
-      - run: yarn
-      - run: yarn test
-      - name: Build page
-        run: PUBLIC_URL=/ REACT_APP_GIT_SHA=$GITHUB_SHA REACT_APP_VERSION=${GITHUB_REF##*/} yarn build
-      - name: Publish package
-        run: |
-          echo "registry=https://npm.pkg.github.com" >> .npmrc 
-          cat .npmrc
-          NODE_AUTH_TOKEN=${{ secrets.GITHUB_TOKEN }} npm publish
+          build-command: PUBLIC_URL=/personal-website-admin REACT_APP_GIT_SHA=$GITHUB_SHA REACT_APP_VERSION=${GITHUB_REF##*/} yarn build
